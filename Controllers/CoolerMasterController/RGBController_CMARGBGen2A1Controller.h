@@ -22,6 +22,7 @@ public:
     void ResizeZone(int zone, int new_size);
     void DeviceUpdateLEDs();
     void UpdateZoneLEDs(int zone);
+    void UpdateSegmentLEDs(int zone, int subchannel);
     void UpdateSingleLED(int led);
     void SetCustomMode();
     void DeviceUpdateMode();
